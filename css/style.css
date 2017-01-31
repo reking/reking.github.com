@@ -25,6 +25,15 @@ hr {border-top: 1px solid #eee;border-bottom: 1px solid #fcfcfc;}
   *background-color: #005580;
 }
 
+/*icon padding*/
+td a + a{
+    padding-left: 3em;
+}
+
+i {
+    margin-right: 10px;
+}
+
 /* nav */
 #sidebar.sbleft {margin-left: 0;}
 .sidebar-nav {padding: 10px 0;}
@@ -265,7 +274,6 @@ body.dark {color:#eee; background: #1b1b1b;}
 	#footer {padding-top: 10px;}
 
 }
- 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 	h1 {margin-top: 20px;}
